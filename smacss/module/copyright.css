@@ -1,0 +1,9 @@
+.copyright {
+    border: 2px solid black;
+}
+
+.copyright .copyright-text {
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 5px;
+}

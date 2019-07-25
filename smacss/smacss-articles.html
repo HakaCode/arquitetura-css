@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SMACSS</title>
-    <link rel="stylesheet" href="stylesheet/base/reset.css">
-    <link rel="stylesheet" href="stylesheet/base/fonts.css">
-    <link rel="stylesheet" href="stylesheet/base/elements.css"> <!-- titulos, links, tabelas, etc-->
-    <link rel="stylesheet" href="stylesheet/layout/header.css"> 
-    <link rel="stylesheet" href="stylesheet/layout/main.css"> 
-    <link rel="stylesheet" href="stylesheet/layout/articles-wrapper.css"> 
-    <link rel="stylesheet" href="stylesheet/layout/footer.css"> 
-    <link rel="stylesheet" href="stylesheet/module/header.css"> 
-    <link rel="stylesheet" href="stylesheet/module/articles-list.css"> 
-    <link rel="stylesheet" href="stylesheet/module/article.css"> 
-    <link rel="stylesheet" href="stylesheet/module/button.css"> 
-    <link rel="stylesheet" href="stylesheet/module/copyright.css"> 
-    <link rel="stylesheet" href="stylesheet/state/state.css"> 
-    <link rel="stylesheet" href="stylesheet/theme/christmas.css"> 
+    <link rel="stylesheet" href="base/reset.css">
+    <link rel="stylesheet" href="base/fonts.css">
+    <link rel="stylesheet" href="base/elements.css"> <!-- titulos, links, tabelas, etc-->
+    <link rel="stylesheet" href="layout/header.css"> 
+    <link rel="stylesheet" href="layout/main.css"> 
+    <link rel="stylesheet" href="layout/articles-wrapper.css"> 
+    <link rel="stylesheet" href="layout/footer.css"> 
+    <link rel="stylesheet" href="module/header.css"> 
+    <link rel="stylesheet" href="module/articles-list.css"> 
+    <link rel="stylesheet" href="module/article.css"> 
+    <link rel="stylesheet" href="module/button.css"> 
+    <link rel="stylesheet" href="module/copyright.css"> 
+    <link rel="stylesheet" href="state/state.css"> 
+    <link rel="stylesheet" href="theme/christmas.css"> 
 </head>
 <body class="theme-christmas"> <!-- tema -->
     <header id="header" class="header"> <!-- layout --> <!-- módulo -->
         <h1 class="header-title">
             <a href="#" class="header-link">
-                <img src="logo.png" alt="Meu site" class="header-logo">
+                <img src="../smacss/img/logo.png" width="200px" height="100px" alt="Meu site" class="header-logo">
             </a>
         </h1>
     </header>
@@ -47,7 +47,7 @@
                 <li class="article is-disabled"> <!-- módulo --> <!-- estado -->
                     <h2 class="article-title">Lorem ipsum dolor sit amet</h2>
                     <p class="article-brief">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eius, architecto mollitia animi corrupti fugit provident dicta quidem. Odio vel reprehenderit veniam, quasi a autem illum natus doloribus inventore quas!</p>
-                    <a href="#" class="button is-disabled">Leia Mais</a> <!-- módulo --> <!-- estado -->
+                    <a href="#" class="button is-disabled" data-state="pressed">Leia Mais</a> <!-- módulo --> <!-- estado -->
                 </li>
             </ul>
         </section>

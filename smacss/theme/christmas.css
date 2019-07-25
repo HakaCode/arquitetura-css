@@ -1,0 +1,4 @@
+.theme-christmas .button[data-state="pressed"]{
+    background: red;
+    color: wheat;
+}

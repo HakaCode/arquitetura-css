@@ -1,0 +1,16 @@
+.article {
+    margin-bottom: 30px;
+    background: black;
+    color: wheat;
+    padding: 20px;
+}
+
+.article .article-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.article .article-brief {
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
